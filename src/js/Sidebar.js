@@ -1,4 +1,5 @@
 import React from "react";
+import Feed from "./Feed";
 
 export default function Sidebar() {
   return (
@@ -82,6 +83,7 @@ export default function Sidebar() {
           <span className="item-title">See More</span>
         </div>
       </section>
+      <Feed />
     </section>
   );
 }
