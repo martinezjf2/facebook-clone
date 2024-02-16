@@ -87,6 +87,27 @@ export default function Feed() {
           </div>
         </div>
       </div>
+      <div className="box">
+        <div className="newpost">
+          <img
+            className="user-img"
+            src="https://randomuser.me/api/portraits/women/44.jpg"
+          />
+          <input type="text" placeholder="What's on your mind, Jane?" />
+          <div className="hline"></div>
+        </div>
+        <div className="post-types">
+          <div className="item">
+            <i className="fas fa-video"></i> Live Video
+          </div>
+          <div className="item">
+            <i className="fas fa-photo-video"></i> Photo Video
+          </div>
+          <div className="item">
+            <i className="fas fa-laugh-beam"></i> Feeling/Activity
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
