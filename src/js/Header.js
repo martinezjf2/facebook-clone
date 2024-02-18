@@ -11,6 +11,9 @@ export default function Header() {
           <i className="fas fa-search"></i>
           <input type="text" />
         </div>
+        <div className="mobile-button">
+          <i className="fas fa-bars"></i>
+        </div>
       </div>
       <div className="menu-tabs">
         <div className="menu-tab">
