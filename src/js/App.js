@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import Sidebar from "./Sidebar";
+import ContentContainer from "./ContentContainer";
 
 export default function App() {
   return (
     <div>
       <Header />
-      <Sidebar />
+      <ContentContainer />
     </div>
   );
 }
