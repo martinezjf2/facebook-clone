@@ -12,8 +12,14 @@ export default function Post() {
               May 05, 2001 <i className="fas fa-user-friends"></i>
             </span>
           </div>
-          <i className="fas fa-ellipsis-h"></i>
         </div>
+        <i className="fas fa-ellipsis-h"></i>
+      </div>
+      <div className="description">
+        Hey, just hanging out with my cousing in Venice Beach, California!
+      </div>
+      <div className="image">
+        <img src="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/VC_California101_VeniceBeach_Stock_RF_638340372_1280x640.jpg" />
       </div>
     </div>
   );

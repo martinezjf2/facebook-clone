@@ -110,6 +110,8 @@ export default function Feed() {
         </div>
       </div>
       <Post />
+      <Post />
+      <Post />
     </section>
   );
 }
