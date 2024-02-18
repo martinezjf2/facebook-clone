@@ -1,4 +1,5 @@
 import React from "react";
+import Stats from "./Stats";
 
 export default function Post() {
   return (
@@ -21,6 +22,7 @@ export default function Post() {
       <div className="image">
         <img src="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/VC_California101_VeniceBeach_Stock_RF_638340372_1280x640.jpg" />
       </div>
+      <Stats />
     </div>
   );
 }
