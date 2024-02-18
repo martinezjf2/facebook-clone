@@ -5,15 +5,30 @@
         display: none;
       }
     }
+    .content-area.feed {
+      .feed {
+        width: 100%;
+      }
+    }
   }
 }
 
 @media only screen and (max-width: 1000px) {
+  body {
+    .content-area.feed {
+      .sidenav {
+        display: none;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
   body {
     .header {
+      .mobile-button {
+        display: flex;
+      }
       .logo-search {
         input[type="Text"] {
           width: 40px;
@@ -34,8 +49,44 @@
         }
       }
     }
+    .content-area.feed {
+      .feed {
+        display: block;
+        width: 100%;
+        .stories {
+          flex-wrap: nowrap;
+          z-index: 9;
+          padding-bottom: 20px;
+          overflow-x: scroll;
+
+          .video-container {
+            flex: 1 0 auto;
+          }
+        }
+      }
+    }
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 411px) {
+  body {
+    .header {
+      .account {
+        display: none;
+      }
+    }
+    .content-area.feed {
+      .feed {
+        .box {
+          .post-types {
+            .item {
+              .title {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

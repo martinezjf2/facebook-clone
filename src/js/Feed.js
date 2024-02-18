@@ -102,13 +102,16 @@ export default function Feed() {
           <div className="hline"></div>
           <div className="post-types">
             <div className="item">
-              <i className="fas fa-video"></i> Live Video
+              <i className="fas fa-video"></i>{" "}
+              <span className="title">Live Video</span>
             </div>
             <div className="item">
-              <i className="fas fa-photo-video"></i> Photo Video
+              <i className="fas fa-photo-video"></i>{" "}
+              <span className="title">Photo Video</span>
             </div>
             <div className="item">
-              <i className="fas fa-laugh-beam"></i> Feeling/Activity
+              <i className="fas fa-laugh-beam"></i>{" "}
+              <span className="title">Feeling/Activity</span>
             </div>
           </div>
         </div>
