@@ -95,8 +95,9 @@ export default function Feed() {
             src="https://randomuser.me/api/portraits/women/44.jpg"
           />
           <input type="text" placeholder="What's on your mind, Jane?" />
-          <div className="hline"></div>
         </div>
+        <div className="hline"></div>
+        <div className="hline"></div>
         <div className="post-types">
           <div className="item">
             <i className="fas fa-video"></i> Live Video

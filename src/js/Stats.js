@@ -13,7 +13,9 @@ export default function Stats() {
         <div className="emoji-circle yellow">
           <i className="fas fa-surprise"></i>
         </div>
+        3.3k
       </div>
+      <div className="share">799 Comments 73 Shares</div>
     </div>
   );
 }

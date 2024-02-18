@@ -1,5 +1,6 @@
 import React from "react";
 import Stats from "./Stats";
+import Actions from "./Actions";
 
 export default function Post() {
   return (
@@ -23,6 +24,9 @@ export default function Post() {
         <img src="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/VC_California101_VeniceBeach_Stock_RF_638340372_1280x640.jpg" />
       </div>
       <Stats />
+      <div className="hline"></div>
+      <Actions />
+      <div className="hline"></div>
     </div>
   );
 }

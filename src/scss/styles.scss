@@ -368,12 +368,12 @@ body {
             font-weight: 300;
             width: 100%;
           }
-          .hline {
-            height: 1px;
-            background: var(--button-link);
-            margin-bottom: 15px;
-            display: block;
-          }
+        }
+        .hline {
+          height: 1px;
+          background: var(--button-link);
+          margin-bottom: 15px;
+          display: block;
         }
         .post-types {
           display: flex;
@@ -513,6 +513,23 @@ body {
                 color: rgba(246, 176, 36, 1);
                 bottom: 0px;
               }
+            }
+          }
+        }
+        .actions {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 20px;
+          .link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--light-color-text);
+            width: 100%;
+            text-decoration: none;
+            .fas {
+              margin-right: 10px;
             }
           }
         }
