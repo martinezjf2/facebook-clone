@@ -4,11 +4,38 @@
       .menu-tabs {
         display: none;
       }
-      // .logo-search {
-      //   input[type="Text"] {
-      //     width: 15px;
-      //   }
-      // }
     }
   }
+}
+
+@media only screen and (max-width: 1000px) {
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    .header {
+      .logo-search {
+        input[type="Text"] {
+          width: 40px;
+          height: 40px;
+          padding: 0;
+        }
+        .fa-search {
+          left: 12px;
+          top: 12px;
+        }
+      }
+      .account {
+        .user-img {
+          display: none;
+        }
+        .user-name {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
 }
