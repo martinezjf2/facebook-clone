@@ -7,6 +7,7 @@ export default function ContentContainer() {
     <section className="content-area feed">
       <Sidenav />
       <Feed />
+      <Sidenav />
     </section>
   );
 }
